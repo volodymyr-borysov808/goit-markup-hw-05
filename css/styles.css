@@ -500,13 +500,19 @@ transform: translateY(0);
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #2e2f42;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
 }
 
 .subscribe-btn {
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     display: flex;
-    gap: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -515,7 +521,7 @@ transform: translateY(0);
     color: #fff;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
@@ -533,8 +539,7 @@ transform: translateY(0);
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
-    padding: 8px 16px;
+    color: #ffffff;
 }
 
 .input-button-wrapper {
@@ -543,6 +548,7 @@ transform: translateY(0);
 
 .icon-send {
     fill: #fff;
+    margin-left: 16px;
 }
 
 .input-wrapper {
