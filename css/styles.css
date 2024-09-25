@@ -539,12 +539,12 @@ transform: translateY(0);
     padding: 8px 16px;
 }
 
-.icon-send {
-    fill: #fff;
+.input-button-wrapper {
+    display: flex;
 }
 
-.subscribe-btn-container {
-
+.icon-send {
+    fill: #fff;
 }
 
 .input-wrapper {
